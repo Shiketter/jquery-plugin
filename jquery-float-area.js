@@ -8,8 +8,6 @@
 		var setting = $.extend(defaults, options);
 		
 		var name = this.selector;
-		console.log(name);
-		console.log(setting['duration']);
 		$(name).css("top", setting['top']);
 		$(name).css("position", "absolute");
 		
