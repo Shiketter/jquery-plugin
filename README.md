@@ -18,3 +18,13 @@ $(function() {
     $(element).floatArea({top:30, duration:500});
 });
 ```
+
+#jquery-text-stream.js
+You can display the character to flow you would like to use this plug-in.
+
+use
+```javascript:jquery-text-stream.js
+$(function() {
+    $(element).textStream();
+});
+```
